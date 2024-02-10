@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.table-header-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+
+  border-right: none;
+}
+.image {
+  height: 20px;
+  width: 20px;
+}
+.del-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
